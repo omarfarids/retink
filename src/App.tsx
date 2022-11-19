@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import { AppContext } from "./app/context";
+import Footer from "./app/Footer";
+import Header from "./app/Header";
+import Main from "./app/Main";
+import { Loader } from "@mantine/core";
 
 function App() {
+  const { isLoading } = useContext(AppContext);
+
+  if (isLoading) {
+    return (
+      <Loader
+        sx={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%,-50%)",
+        }}
+        color="grape"
+        variant="bars"
+      />
+    );
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
