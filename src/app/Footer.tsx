@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
     <>
       <div className="bg-perfGray flex justify-evenly flex-col md:flex-row items-center">
         <div className="px-3 md:w-2/5 md:p-10">
-          <img className="w-24 my-5" src="/assets/Logo.png" alt="" />
+          <img className="w-24 my-5" src="assets/Logo.png" alt="" />
           <div className="flex flex-row gap-5 justify-between flex-wrap">
             <p className="text-lg font-medium hover:cursor-pointer">
               Product by Retink Media UG

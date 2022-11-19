@@ -16,12 +16,6 @@ const AppProvider = ({ children }: any) => {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
-  const handleLoading = () => {
-    const counter = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  };
-
   console.log(isLoading);
   useEffect(() => {
     const counter = setTimeout(() => {

@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="py-10">
       <nav className="p-5">
-        <img className="w-24" src={"/assets/Logo.png"} alt="" />
+        <img className="w-24" src={"assets/Logo.png"} alt="" />
       </nav>
       <div className="m-3 flex flex-col-reverse md:flex-row items-center justify-evenly">
         <div className="md:w-2/5 flex flex-col gap-5">
@@ -52,7 +52,7 @@ const Header = () => {
         </div>
         <img
           className="md:w-1/3"
-          src={"/assets/retink-avatar.png"}
+          src={"assets/retink-avatar.png"}
           alt="retink avatar"
         />
       </div>
