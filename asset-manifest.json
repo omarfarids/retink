@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/retink/static/css/main.631f2a0a.css",
-    "main.js": "/retink/static/js/main.a7c9c827.js",
+    "main.js": "/retink/static/js/main.9fe02bbb.js",
     "index.html": "/retink/index.html",
     "main.631f2a0a.css.map": "/retink/static/css/main.631f2a0a.css.map",
-    "main.a7c9c827.js.map": "/retink/static/js/main.a7c9c827.js.map"
+    "main.9fe02bbb.js.map": "/retink/static/js/main.9fe02bbb.js.map"
   },
   "entrypoints": [
     "static/css/main.631f2a0a.css",
-    "static/js/main.a7c9c827.js"
+    "static/js/main.9fe02bbb.js"
   ]
 }
