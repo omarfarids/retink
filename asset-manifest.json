@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/retink/static/css/main.631f2a0a.css",
+    "main.js": "/retink/static/js/main.fc9e2dbb.js",
+    "index.html": "/retink/index.html",
+    "main.631f2a0a.css.map": "/retink/static/css/main.631f2a0a.css.map",
+    "main.fc9e2dbb.js.map": "/retink/static/js/main.fc9e2dbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.631f2a0a.css",
+    "static/js/main.fc9e2dbb.js"
+  ]
+}
